@@ -5957,5 +5957,21 @@
   "skillBurger.menu.aria": "{name} için daha fazla",
   "skillBurger.menu.rename": "Yeniden adlandır…",
   "skillBurger.card.everyChat": "Her sohbet",
-  "skillBurger.page.empty": "Botlarınızın yaptığı Skill Burger'lar burada görünür."
+  "skillBurger.page.empty": "Botlarınızın yaptığı Skill Burger'lar burada görünür.",
+  "skillBurger.run.button": "Çalıştır",
+  "skillBurger.runName": "{name} çalıştır",
+  "skillBurger.run.decide": "Karar: {question}",
+  "skillBurger.run.ifCase": "{case} ise",
+  "skillBurger.run.skipped": "atlandı",
+  "skillBurger.run.notThisTime": "bu sefer değil",
+  "skillBurger.run.done": "Bitti",
+  "skillBurger.run.running": "Çalışıyor…",
+  "skillBurger.run.stopped": "Başarısız bir adımda durdu",
+  "skillBurger.run.finished": "Tamamlandı",
+  "skillBurger.run.updated": "Skill Burger güncellendi",
+  "skillBurger.run.editUndone": "Değişiklik geri alındı",
+  "skillBurger.run.addPath": "“{case}” yolunu ekle",
+  "skillBurger.run.pathAdded": "“{case}” yolu eklendi",
+  "skillBurger.run.pathUndone": "Yol kaldırıldı",
+  "skillBurger.run.addPathFailed": "Yapılamadı. Tekrar deneyin."
 }

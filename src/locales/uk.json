@@ -4139,5 +4139,21 @@
   "skillBurger.menu.aria": "Більше для {name}",
   "skillBurger.menu.rename": "Перейменувати…",
   "skillBurger.card.everyChat": "Кожен чат",
-  "skillBurger.page.empty": "Тут з’являються Skill Burger ваших ботів."
+  "skillBurger.page.empty": "Тут з’являються Skill Burger ваших ботів.",
+  "skillBurger.run.button": "Запустити",
+  "skillBurger.runName": "Запустити {name}",
+  "skillBurger.run.decide": "Вирішити: {question}",
+  "skillBurger.run.ifCase": "Якщо {case}",
+  "skillBurger.run.skipped": "пропущено",
+  "skillBurger.run.notThisTime": "не цього разу",
+  "skillBurger.run.done": "Готово",
+  "skillBurger.run.running": "Виконується…",
+  "skillBurger.run.stopped": "Зупинено на невдалому кроці",
+  "skillBurger.run.finished": "Завершено",
+  "skillBurger.run.updated": "Skill Burger оновлено",
+  "skillBurger.run.editUndone": "Зміну скасовано",
+  "skillBurger.run.addPath": "Додати шлях «{case}»",
+  "skillBurger.run.pathAdded": "Шлях «{case}» додано",
+  "skillBurger.run.pathUndone": "Шлях вилучено",
+  "skillBurger.run.addPathFailed": "Не вдалося. Спробуйте ще раз."
 }

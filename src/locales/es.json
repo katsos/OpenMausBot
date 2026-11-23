@@ -6462,5 +6462,21 @@
   "skillBurger.menu.aria": "Más de {name}",
   "skillBurger.menu.rename": "Cambiar nombre…",
   "skillBurger.card.everyChat": "Todos los chats",
-  "skillBurger.page.empty": "Aquí aparecen los Skill Burgers que hacen tus bots."
+  "skillBurger.page.empty": "Aquí aparecen los Skill Burgers que hacen tus bots.",
+  "skillBurger.run.button": "Ejecutar",
+  "skillBurger.runName": "Ejecutar {name}",
+  "skillBurger.run.decide": "Decidir: {question}",
+  "skillBurger.run.ifCase": "Si {case}",
+  "skillBurger.run.skipped": "omitido",
+  "skillBurger.run.notThisTime": "esta vez no",
+  "skillBurger.run.done": "Hecho",
+  "skillBurger.run.running": "Ejecutando…",
+  "skillBurger.run.stopped": "Se detuvo en un paso fallido",
+  "skillBurger.run.finished": "Terminado",
+  "skillBurger.run.updated": "Skill Burger actualizado",
+  "skillBurger.run.editUndone": "Cambio deshecho",
+  "skillBurger.run.addPath": "Añadir el camino «{case}»",
+  "skillBurger.run.pathAdded": "Camino «{case}» añadido",
+  "skillBurger.run.pathUndone": "Camino quitado",
+  "skillBurger.run.addPathFailed": "No se pudo hacer. Inténtalo de nuevo."
 }

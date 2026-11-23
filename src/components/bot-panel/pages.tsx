@@ -467,7 +467,7 @@ export function SkillsPage({ bot }: PageContext) {
 
   return (
     <>
-      <SavedWorkflowsCard botId={bot.id} />
+      <SavedWorkflowsCard botId={bot.id} threadId={bot.threadId} />
       <Card>
         {skills.loading ? (
           <NoteRow>{t("skills.loading")}</NoteRow>

@@ -7212,5 +7212,21 @@
   "skillBurger.menu.aria": "Ещё для {name}",
   "skillBurger.menu.rename": "Переименовать…",
   "skillBurger.card.everyChat": "Каждый чат",
-  "skillBurger.page.empty": "Здесь появляются Skill Burger ваших ботов."
+  "skillBurger.page.empty": "Здесь появляются Skill Burger ваших ботов.",
+  "skillBurger.run.button": "Запустить",
+  "skillBurger.runName": "Запустить {name}",
+  "skillBurger.run.decide": "Решить: {question}",
+  "skillBurger.run.ifCase": "Если {case}",
+  "skillBurger.run.skipped": "пропущен",
+  "skillBurger.run.notThisTime": "не в этот раз",
+  "skillBurger.run.done": "Готово",
+  "skillBurger.run.running": "Выполняется…",
+  "skillBurger.run.stopped": "Остановлено на неудачном шаге",
+  "skillBurger.run.finished": "Завершено",
+  "skillBurger.run.updated": "Skill Burger обновлён",
+  "skillBurger.run.editUndone": "Изменение отменено",
+  "skillBurger.run.addPath": "Добавить путь «{case}»",
+  "skillBurger.run.pathAdded": "Путь «{case}» добавлен",
+  "skillBurger.run.pathUndone": "Путь удалён",
+  "skillBurger.run.addPathFailed": "Не получилось. Попробуйте ещё раз."
 }

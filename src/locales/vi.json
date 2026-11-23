@@ -5957,5 +5957,21 @@
   "skillBurger.menu.aria": "Thêm cho {name}",
   "skillBurger.menu.rename": "Đổi tên…",
   "skillBurger.card.everyChat": "Mọi cuộc trò chuyện",
-  "skillBurger.page.empty": "Skill Burger do bot của bạn tạo sẽ hiện ở đây."
+  "skillBurger.page.empty": "Skill Burger do bot của bạn tạo sẽ hiện ở đây.",
+  "skillBurger.run.button": "Chạy",
+  "skillBurger.runName": "Chạy {name}",
+  "skillBurger.run.decide": "Quyết định: {question}",
+  "skillBurger.run.ifCase": "Nếu {case}",
+  "skillBurger.run.skipped": "đã bỏ qua",
+  "skillBurger.run.notThisTime": "không phải lần này",
+  "skillBurger.run.done": "Xong",
+  "skillBurger.run.running": "Đang chạy…",
+  "skillBurger.run.stopped": "Đã dừng ở một bước thất bại",
+  "skillBurger.run.finished": "Đã xong",
+  "skillBurger.run.updated": "Đã cập nhật Skill Burger",
+  "skillBurger.run.editUndone": "Đã hoàn tác thay đổi",
+  "skillBurger.run.addPath": "Thêm nhánh “{case}”",
+  "skillBurger.run.pathAdded": "Đã thêm nhánh “{case}”",
+  "skillBurger.run.pathUndone": "Đã xóa nhánh",
+  "skillBurger.run.addPathFailed": "Không làm được. Hãy thử lại."
 }

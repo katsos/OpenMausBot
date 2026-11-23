@@ -36,6 +36,15 @@ function callText(frame: Record<string, unknown>): ExecResult {
   return result?.isError === true ? { ok: false, error: text || "the call failed" } : { ok: true, output: text };
 }
 
+/** The server's PATH with the system's own folders after it: a server started with a short PATH still finds sleep or cp. */
+function commandPath(): string {
+  const own = process.env.PATH ?? "";
+  if (process.platform === "win32") return own;
+  const parts = own.split(":").filter(Boolean);
+  for (const dir of ["/usr/local/bin", "/usr/bin", "/bin", "/usr/sbin", "/sbin"]) if (!parts.includes(dir)) parts.push(dir);
+  return parts.join(":");
+}
+
 function defaultShell(): NonNullable<ExecutorContext["shell"]> {
   return process.platform === "win32"
     ? { command: process.env.ComSpec || "cmd.exe", args: (script) => ["/d", "/s", "/c", script] }
@@ -50,7 +59,7 @@ function runInBox(context: ExecutorContext, input: Parameters<StepExecutors["she
     try {
       child = spawnCli(shell.command, shell.args(input.command), {
         cwd: input.cwd && isAbsolute(input.cwd) ? input.cwd : context.cwd,
-        env: { PATH: process.env.PATH, HOME: process.env.HOME, LANG: process.env.LANG, ...input.env },
+        env: { PATH: commandPath(), HOME: process.env.HOME, LANG: process.env.LANG, ...input.env },
         stdio: ["pipe", "pipe", "pipe"],
         box: { botId: context.botId },
       }, "bot");

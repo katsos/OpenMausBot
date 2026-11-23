@@ -4164,5 +4164,21 @@
   "skillBurger.menu.aria": "Mehr zu {name}",
   "skillBurger.menu.rename": "Umbenennen…",
   "skillBurger.card.everyChat": "Jeder Chat",
-  "skillBurger.page.empty": "Skill Burger deiner Bots erscheinen hier."
+  "skillBurger.page.empty": "Skill Burger deiner Bots erscheinen hier.",
+  "skillBurger.run.button": "Ausführen",
+  "skillBurger.runName": "{name} ausführen",
+  "skillBurger.run.decide": "Entscheiden: {question}",
+  "skillBurger.run.ifCase": "Wenn {case}",
+  "skillBurger.run.skipped": "übersprungen",
+  "skillBurger.run.notThisTime": "diesmal nicht",
+  "skillBurger.run.done": "Erledigt",
+  "skillBurger.run.running": "Läuft…",
+  "skillBurger.run.stopped": "Bei einem fehlgeschlagenen Schritt angehalten",
+  "skillBurger.run.finished": "Fertig",
+  "skillBurger.run.updated": "Skill Burger aktualisiert",
+  "skillBurger.run.editUndone": "Änderung rückgängig gemacht",
+  "skillBurger.run.addPath": "Den Weg „{case}“ hinzufügen",
+  "skillBurger.run.pathAdded": "Weg „{case}“ hinzugefügt",
+  "skillBurger.run.pathUndone": "Weg entfernt",
+  "skillBurger.run.addPathFailed": "Das hat nicht geklappt. Versuch es noch einmal."
 }

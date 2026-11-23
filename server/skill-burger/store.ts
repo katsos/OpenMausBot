@@ -227,6 +227,6 @@ export function workflowSkillsPrompt(botId: string, root: string = skillsLibrary
     lines.push(line);
   }
   return lines.length
-    ? `\n\nSaved workflows (runs the person saved as skills for every chat; when one fits the task, read its SKILL.md and do its steps with the values in its workflow.json):\n${lines.join("\n")}`
+    ? `\n\nSaved workflows (runs the person saved as skills for every chat; when one fits the task, run it with the run_workflow tool; read its SKILL.md for what it does):\n${lines.join("\n")}`
     : "";
 }
